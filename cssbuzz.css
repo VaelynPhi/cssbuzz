@@ -1,0 +1,11 @@
+
+html { padding: 0; }
+html, body { margin: 0; min-width: 100%; min-height: 100%; }
+
+body { font: 10px Courier, monospace; }
+#cssbuzz li:nth-child(3n+0) :first-child{ display: none; }
+#cssbuzz li:nth-child(3n+0):after{ content: "Fizz"; }
+#cssbuzz li:nth-child(5n+0) :first-child{ display: none; }
+#cssbuzz li:nth-child(5n+0):after{ content: "Buzz"; }
+#cssbuzz li:nth-child(15n+0) :first-child{ display: none; }
+#cssbuzz li:nth-child(15n+0):after{ content: "FizzBuzz"; }
